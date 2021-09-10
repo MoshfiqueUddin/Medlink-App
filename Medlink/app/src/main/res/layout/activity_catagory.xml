@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/papers_co_sg21_light_green_gradation_blur_29_wallpaper"
+    tools:context=".Catagory">
+
+    <ImageButton
+        android:id="@+id/cardiology"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cardiology"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/dentist"
+        android:layout_width="108dp"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/dentist"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/ent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="141dp"
+        android:layout_toRightOf="@+id/dentist"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/dermatology"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toRightOf="@+id/ent"
+        android:background="@color/white"
+
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/derm"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/medicine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="382dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/medicine"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/neuro"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:layout_toRightOf="@+id/dentist"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/neuro"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/ortho"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="260dp"
+        android:layout_toRightOf="@+id/neuro"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ortho"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/respi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="380dp"
+        android:layout_toRightOf="@+id/medicine"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/res"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/surgery"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textView8"
+        android:layout_marginLeft="21dp"
+
+        android:layout_marginTop="0dp"
+
+        android:layout_toEndOf="@+id/respi"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/surgery"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/mentalhealth"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="499dp"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/mental_health"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/cardiology"
+android:layout_marginLeft="50dp"
+        android:text="Cardiology" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ent"
+        android:layout_marginLeft="77dp"
+        android:layout_toRightOf="@+id/textView"
+        android:text="ENT" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dermatology"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="34dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@id/ent"
+        android:text="Dermatology" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dentist"
+        android:layout_marginLeft="60dp"
+        android:text="Dentist" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/neuro"
+        android:layout_marginStart="34dp"
+        android:layout_toEndOf="@id/dentist"
+        android:text="Neurology" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ortho"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/neuro"
+        android:text="@string/orthopedics" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicine"
+        android:layout_marginLeft="55dp"
+        android:text="Medicine" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/respi"
+        android:layout_marginLeft="41dp"
+        android:layout_toEndOf="@id/medicine"
+        android:text="@string/respiratory" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/surgery"
+        android:layout_marginLeft="45dp"
+        android:layout_toEndOf="@id/respi"
+        android:text="@string/surgery" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mentalhealth"
+        android:layout_marginLeft="40dp"
+        android:text="Mental Health" />
+
+    <ImageButton
+        android:id="@+id/eye"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textView11"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/mentalhealth"
+        android:background="@color/white"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/eye"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eye"
+        android:layout_marginLeft="67dp"
+        android:layout_toRightOf="@id/textView12"
+        android:text="EYE" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CD69F0AE"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/Widget.MaterialComponents.Snackbar.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Select a Specialization/ Catagory"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>

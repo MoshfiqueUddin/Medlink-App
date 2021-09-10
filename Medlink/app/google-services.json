@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "37208384986",
+    "firebase_url": "https://cse299-ff20a-default-rtdb.firebaseio.com",
+    "project_id": "cse299-ff20a",
+    "storage_bucket": "cse299-ff20a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37208384986:android:9a5f70fe5b8de624d2cce3",
+        "android_client_info": {
+          "package_name": "com.example.cse299"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37208384986-i3ikakortcvfp9av1sbt1hgroo4ov425.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cse299",
+            "certificate_hash": "885d621f9091bfde816fc8567df000e089145b69"
+          }
+        },
+        {
+          "client_id": "37208384986-rrkqj20utagqe6b99bo84pk74eb6p81d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXYeFraykY77kANBg_sqaXuncC8W4ny4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37208384986-rrkqj20utagqe6b99bo84pk74eb6p81d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
